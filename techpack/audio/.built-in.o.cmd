@@ -1,0 +1,1 @@
+cmd_techpack/audio/built-in.o :=  /home/aju/Android/02_ROM_Build_Trees/lineage-19.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-ld -EL   -r -o techpack/audio/built-in.o techpack/audio/asoc/built-in.o techpack/audio/dsp/built-in.o techpack/audio/ipc/built-in.o techpack/audio/soc/built-in.o 

@@ -1,0 +1,11 @@
+# ignore all subdirs except audio and stub
+*/*
+!/audio/*
+!/stub/*
+# Xiaomi MSM8937
+/audio-legacy
+/camera-legacy*
+/xiaomi-msm8937
+/xiaomi-sdm439
+# Mods
+/KernelSU

@@ -1,0 +1,1 @@
+cmd_techpack/stub/built-in.o :=  /home/aju/Android/02_ROM_Build_Trees/lineage-19.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-ld -EL   -r -o techpack/stub/built-in.o techpack/stub/stub.o 
