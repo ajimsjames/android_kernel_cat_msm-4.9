@@ -167,3 +167,10 @@ int main(int argc, char **argv)
 
 	return 0;
 }
+
+void ENGINE_load_builtin_engines(void) {}
+ENGINE *ENGINE_by_id(const char *id) { (void)id; return NULL; }
+int ENGINE_init(ENGINE *e) { (void)e; return 0; }
+int ENGINE_ctrl_cmd_string(ENGINE *e, const char *cmd, const char *arg, int opt) { (void)e;(void)cmd;(void)arg;(void)opt; return 0; }
+int ENGINE_ctrl_cmd(ENGINE *e, const char *cmd, long i, void *p, void (*f)(void), int opt) { (void)e;(void)cmd;(void)i;(void)p;(void)f;(void)opt; return 0; }
+EVP_PKEY *ENGINE_load_private_key(ENGINE *e, const char *key_id, UI_METHOD *ui_method, void *callback_data) { (void)e;(void)key_id;(void)ui_method;(void)callback_data; return NULL; }
